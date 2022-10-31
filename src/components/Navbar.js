@@ -20,8 +20,8 @@ const Navbar = () => {
                 <li className='p-4'>ABOUT</li>
                 <li className='p-4'>CONTACT</li>
             </ul>
-            <div onClick={handleNav} >
-          {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
+            <div onClick={handleNav}  >
+          {nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20} />}
 
 
                 
